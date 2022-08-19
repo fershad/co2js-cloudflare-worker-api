@@ -1,21 +1,12 @@
-## Router
+## CO2.js and Cloudflare Workers digital carbon API starter
 
-This template demonstrates using the [`itty-router`](https://github.com/kwhitley/itty-router) package to add routing to your Cloudflare Workers.
+This is a bare bones starter for creating a Cloudflare Workers API using CO2.js to calculate digital carbon emissions.
 
-[`index.js`](https://github.com/cloudflare/worker-template-router/blob/master/index.js) is the content of the Workers script.
+### Tutorial
 
-#### Wrangler
+[Read this tutorial](https://www.fershad.com/writing/digital-carbon-api-cloudflare-workers-co2-js) to follow along with this code, understand how it is set up, and what it does.
 
-You can use [wrangler](https://github.com/cloudflare/wrangler) to generate a new Cloudflare Workers project based on this template by running the following command from your terminal:
+## Docs
 
-```
-wrangler generate myapp https://github.com/cloudflare/worker-template-router
-```
-
-Before publishing your code you need to edit `wrangler.toml` file and add your Cloudflare `account_id` - more information about configuring and publishing your code can be found [in the documentation](https://developers.cloudflare.com/workers/learning/getting-started#7-configure-your-project-for-deployment).
-
-Once you are ready, you can publish your code by running the following command:
-
-```
-wrangler publish
-```
+- [CO2.js docs](https://developers.thegreenwebfoundation.org/co2js/overview/)
+- [Cloudflare Workers docs](https://developers.cloudflare.com/workers/)
